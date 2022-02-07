@@ -1,4 +1,4 @@
-checkroot() {
+checkroot(Kali Linux 2020) {
 
 if [[ "$(id -u)" -ne 0 ]]; then
    printf "\e[1;77mPlease, run this program as root!\n\e[0m"
